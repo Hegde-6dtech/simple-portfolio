@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 function NavBar() {
  
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-2 border border-primary ">
+    <nav className="navbar navbar-expand-lg   ">
       <Link className="navbar-brand fw-bolder fs-2 ms-4 " to="/">
    
         Portfolio

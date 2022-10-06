@@ -1,5 +1,5 @@
 import React from 'react'
-import "./About.css"
+import './About.css'
 
 function About() {
   return (
@@ -11,24 +11,16 @@ function About() {
           </div>
           <div className="about-details">
             <div className="left">
-              <img src="./images/about.jpg" alt="" />
+              <img src="./images/Anie2.jpg" alt="" />
             </div>
             <div className="right">
               <div className="topic">Designing Is My Passion</div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deserunt, porro veritatis pariatur, nobis voluptatem ipsum
-                repellat nemo quisquam error reprehenderit recusandae odio vel,
-                suscipit. Voluptas mollitia accusantium quaerat aspernatur
-                labore dolorum placeat ipsa sint nam perspiciatis eos
-                consectetur veritatis debitis, quis aliquam unde sed maiores
-                sit! Hic molestiae optio iste iure earum amet nostrum quaerat
-                facere quae veniam maiores harum iusto aperiam vel inventore
-                illo voluptatibus voluptates quo impedit voluptatum error vitae,
-                omnis praesentium? Aperiam nulla non, nesciunt fuga rem
-                perferendis alias et, temporibus, distinctio culpa unde a
-                laborum libero ducimus. Facilis veniam sit praesentium,
-                voluptatibus sint maxime iusto eaque.
+                I work with forward-thinking people to design and build
+                interactive, accessible websites and products. From working on
+                projects for likes of Aardman Animations, UNHCR, RNLI, and
+                Honda, to working at startups in Tokyo, I've devoted more than a
+                decade to making the web a little bit brighter.
               </p>
               <div className="button">
                 <button>Download CV</button>

@@ -41,7 +41,7 @@ function Skills() {
                 <div className="per">70%</div>
               </div>
               <div className="box">
-                <div className="topic">PHP</div>
+                <div className="topic">React</div>
                 <div className="per">60%</div>
               </div>
             </div>

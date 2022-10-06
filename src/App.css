@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.nav-item{
+  font-size: 25px;
+  color:#032c44 ;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+.sticky{
+  background: #4070f4;
+  padding: 13px 0;
+}
+.navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #4070f4;
+}
+.sticky .navbar .logo a{
+  color: #fff;
+}
+.navbar .menu{
+  display: flex;
+  position: relative;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 18px;
+  font-weight: 500;
+  color: #0E2431;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color: #4070f4;
+}
+.sticky .menu a{
+  color: #FFF;
+}
+.sticky .menu a:hover{
+  color: #0E2431;
+}
+.navbar .media-icons a{
+  color: #4070f4;
+  font-size: 18px;
+  margin: 0 6px;
+}
+.sticky .media-icons a{
+  color: #FFF;
+}
+
