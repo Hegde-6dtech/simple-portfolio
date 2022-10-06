@@ -1,28 +1,42 @@
 import React from 'react'
+import "./About.css"
 
 function About() {
   return (
     <div>
-      <div className="card mb-3" >
-        <div className="row g-0">
-          <div className="col-md-4">
-            <img src="./images/lap.jpg" className="img-fluid rounded-start" alt="..." />
+      <section className="about" id="about">
+        <div className="content">
+          <div className="title">
+            <span>About Me</span>
           </div>
-          <div className="col-md-8">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+          <div className="about-details">
+            <div className="left">
+              <img src="./images/about.jpg" alt="" />
+            </div>
+            <div className="right">
+              <div className="topic">Designing Is My Passion</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deserunt, porro veritatis pariatur, nobis voluptatem ipsum
+                repellat nemo quisquam error reprehenderit recusandae odio vel,
+                suscipit. Voluptas mollitia accusantium quaerat aspernatur
+                labore dolorum placeat ipsa sint nam perspiciatis eos
+                consectetur veritatis debitis, quis aliquam unde sed maiores
+                sit! Hic molestiae optio iste iure earum amet nostrum quaerat
+                facere quae veniam maiores harum iusto aperiam vel inventore
+                illo voluptatibus voluptates quo impedit voluptatum error vitae,
+                omnis praesentium? Aperiam nulla non, nesciunt fuga rem
+                perferendis alias et, temporibus, distinctio culpa unde a
+                laborum libero ducimus. Facilis veniam sit praesentium,
+                voluptatibus sint maxime iusto eaque.
               </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
+              <div className="button">
+                <button>Download CV</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   )
 }

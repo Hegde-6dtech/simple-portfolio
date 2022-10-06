@@ -1,0 +1,33 @@
+.img-fluid{
+    height: 600px;
+    width:500px;
+}
+
+.card-title{
+    color: #0E2431;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+  
+    
+}
+
+.card-greet{
+    font-size: 35px;
+    color: #0E2431;
+    margin: 5px 0;
+}
+
+.card-text{
+    font-size: 40px;
+  margin: 5px 0;
+  color: #4070f4;
+}
+
+.container{
+    background-color: rgb(139, 27, 23);
+    margin-top: 40px;
+}
+body{
+    background: radial-gradient(#91d7e9, #cf88f0);
+}
