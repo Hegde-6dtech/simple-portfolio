@@ -99,4 +99,13 @@ nav{
 .sticky .media-icons a{
   color: #FFF;
 }
-
+nav .nav-icons{
+  display: flex;
+  margin-right: 10%;
+  font-size: 25px;
+  
+}
+nav .nav-icons .icons-link{
+  padding: 10px;
+  
+}

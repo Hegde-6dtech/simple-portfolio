@@ -1,7 +1,22 @@
 import React from 'react'
+import {FaHtml5} from 'react-icons/fa'
+import {FaCss3, FaReact} from 'react-icons/fa'
+import {TbBrandJavascript} from 'react-icons/tb'
+import "./Skills.css"
 
 function Skills() {
-
+  const iconStyle={
+    fontSize:'35px',
+    color:'#052374'
+  }
+  // const textStyle={
+  //   fontSize:'35px',
+  //   color:'#052374'
+  // }
+  // const perStyle={
+  //   fontSize:'25px',
+  //   color:'#052374'
+  // }
 
   return (
     <div>
@@ -20,29 +35,32 @@ function Skills() {
                 Illo libero, et, distinctio repellat sed nesciunt est modi
                 quaerat placeat. Quod molestiae, alias?
               </p>
-              <div className="experience">
-                <div className="num">10</div>
-                <div className="exp">
-                  Years Of <br /> Experience
-                </div>
-              </div>
+              
             </div>
             <div className="boxes">
               <div className="box">
-                <div className="topic">HTML</div>
-                <div className="per">90%</div>
+                <div className="topic">HTML <FaHtml5 style={iconStyle}/></div>
+                <div className="per" >
+                90%
+                </div>
               </div>
               <div className="box">
-                <div className="topic">CSS</div>
-                <div className="per">80%</div>
+                <div className="topic">CSS <FaCss3 style={iconStyle}/></div>
+                <div className="per" >
+                80%
+                </div>
               </div>
               <div className="box">
-                <div className="topic">JavScript</div>
-                <div className="per">70%</div>
+                <div className="topic" >JavScript <TbBrandJavascript style={iconStyle}/> </div>
+                <div className="per"  >
+               70%
+                </div>
               </div>
               <div className="box">
-                <div className="topic">React</div>
-                <div className="per">60%</div>
+                <div className="topic" >React <FaReact style={iconStyle}/></div>
+                <div className="per">
+                60%
+                </div>
               </div>
             </div>
           </div>

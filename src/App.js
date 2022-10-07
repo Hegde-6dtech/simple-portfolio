@@ -8,6 +8,7 @@ import NavBar from './components/NavBar/NavBar'
 import Skills from './components/Skills/Skills'
 
 
+
 function App() {
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
       <Route path='/skills' element={<Skills/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
- 
+   
     </>
   )
 }
